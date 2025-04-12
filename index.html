@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicon.png" type="png">
+</head>
+<body>
+    <div class="container">
+        <h1 class="head">Event Registration Form</h1>
+        <form action="" class="reg">
+            <label for="">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Contact Number" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Your Emial" required>
+
+            <label for="event">Event Name</label>
+            <input type="text" id="event" name="event" placeholder="Event" required>
+
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="regtype">Registration Type(Participant/Volunteer)</label>
+            <input type="text" id="regtype" name="regtype" placeholder="Participant or Volunteer" required>
+
+            <label for="org">Organization/School</label>
+            <input type="text" id="org" name="org" placeholder="Enter Your School" required>
+
+            <div class="btn">
+                <button type="submit" id="btn">Register</button>
+            </div>
+        </form>
+        <p id="msg"></p>
+       
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
