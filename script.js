@@ -8,6 +8,7 @@ form.addEventListener("submit",(event)=>{
 
     if(isconfirm){
         msg.textContent ="Form Submited Successfuly";
+          msg.style.color = "limegreen";
         setTimeout(() => {
             form.reset();
             msg.textContent = "";
